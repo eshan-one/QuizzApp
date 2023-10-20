@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
 import "./QuestionList.css";
 import Question from "../Question/Question";
-import getQuestions from "../services/getQuestions";
+import getQuestions from "../Services/getQuestions";
 
 const QuestionList = ({ gameOptions, handleGameStart, handleNoQuestionsError }) => {
 	const [questionsArray, setQuestionsArray] = useState([]);
