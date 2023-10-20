@@ -133,11 +133,7 @@ const App = () => {
 
 			
 			
-			<footer>Visit GitHub: &nbsp;
-				<a href="https://github.com/eshan-one" target="_blank" rel="noreferrer">
-					eshan-one
-				</a>
-			</footer>
+			
 		</main>
 	);
 }
